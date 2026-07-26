@@ -1,9 +1,28 @@
 aid: dewpoint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dewpoint.png
 name: Dewpoint
-description: 'Dewpoint is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Dewpoint Therapeutics is a Boston-based biotechnology company, founded in 2018, that
+  pioneers drug discovery based on biomolecular condensates — the membraneless compartments inside
+  cells whose formation and dysregulation underlie many diseases. Its condensate platform combines
+  cell biology, high-throughput screening, and machine learning to identify condensate-modulating
+  drugs (c-mods) against previously undruggable targets across oncology, neurodegeneration, and
+  virology. Dewpoint is backed by SoftBank Vision Fund 2 and completed a $150M Series C in 2022. The
+  company operates as a therapeutics developer and, as of this profile, exposes no public developer
+  API, documentation, or developer portal; this entry captures its identity within the API Evangelist
+  network.'
 url: https://raw.githubusercontent.com/api-evangelist/dewpoint/refs/heads/main/apis.yml
+humanURL: https://dewpointx.com/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +31,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Health Tech
+- Biotech
+- Drug Discovery
+- Pharmaceuticals
+- Life Sciences
+- Machine Learning
 apis: []
+common:
+- type: Website
+  url: https://dewpointx.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
